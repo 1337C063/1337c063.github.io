@@ -1,66 +1,37 @@
-*{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin:0;
-    padding: 0;
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    padding: 0px;
 }
+.header{
+    width:100%;
+    color: white;
+    padding: 50px;
+    background: url(img/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg);
+	box-sizing: border-box;
+    text-align: center;
+}
+    
 
+.menu-item {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 .container{
     max-width: 1140px;  
     padding: 0 15px;
     margin: 0 auto;
 }
 
-/* HEADER */
-
-.header{
-    width:100%;
-    color: white;
-    padding: 20px;
-    background: #151c39e8;
-	box-sizing: border-box;
-}
-
-.menu-item{
-    list-style: none;
-}
-
-.menu-link{
-    color: white;
-    text-decoration: none;
-}
-
-/* Дополнительно */
-
-.menu-link{
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-/* BANNER */
-
-.banner-section{
-    padding: 100px 0;
-    background: url(img/banner-bg.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.banner-title{
-    font-size: 48px;
-}
-.banner-title, .banner-description{
-    text-align: center;
-    color: white;
-}
-
-/* CARDS */
-
 .cards-section{
     padding: 50px 0px;
 }
 
 .cards-title, .cards-description{
-    color: #151c39;
+    color: #391527;
     text-align: center;
 }
 
@@ -69,7 +40,7 @@
     margin-top: 25px;
     width: 25%;
     background: white;
-    box-shadow: 0px 2px 7px 0px #9e90ff;
+    box-shadow: 0px 2px 7px 0px #ffdc90;
     text-align: center;
 }
 
@@ -80,30 +51,44 @@
 
 .card-button{
     text-align: center;
-    background: #151c39;
+    background: #153927;
     padding: 10px 70px;
     border-radius: 10px;
 }
 
 
-.card-title, .card-text{
-    margin-bottom: 10px;
+.card-text{
+
+    text-align: center;
+    margin-bottom: 20px;
 }
-
-/* Дополнительно */
-
-.card-button{
-    cursor: pointer;
-}
-
-/* FOOTER */
 
 .footer{
-    background: url(img/footer-bg.jpg);
+    background: url(img/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg);
     background-size: cover;
-    padding: 100px 0px;
+    padding: 50px 0px;
 }
 
 .copyright{
     color: white;
+}
+
+.copyright{
+    color: white;
+}
+
+.copyright{
+    color: white;
+}
+.card-img{
+    height: 100px;
+    width: 100px;
+}
+.img-photo{
+    height: 500px;
+    width: 800px;
+}
+.menu-link{
+    text-transform: uppercase;
+    font-weight: bold;
 }

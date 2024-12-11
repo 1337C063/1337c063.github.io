@@ -1,88 +1,89 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel='stylesheet' href="flex.css">
-    <title>SHOP-BS</title>
+    <title>Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #000000, #000000);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-shadow: 0 0 10px #6d006d, 0 0 20px #9900ff;
+            margin-bottom: 20px;
+        }
+        .portfolio {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+            max-width: 600px;
+        }
+        .image-container {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            border: 4px solid;
+            border-image: linear-gradient(90deg, #6f00ff, #6f00ff) 1;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 0 0 40px rgba(195, 0, 255, 0.5);
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .contact {
+            
+            margin: 50px;
+            font-size: 4rem;
+            font-weight: bold;
+
+        }
+        div{
+            margin: 20px
+        }
+        h1 {
+            margin-top: 60px;
+        }
+    </style>
 </head>
 <body>
-    <header class="header">
-            <div class="header-menu">
-                <div class="container">
-                <ul class="menu">
-                    <li><a class="menu-item" href="#"><b>Главная</b></a></li>
-                    <li><a class="menu-item" href="#"><b>Товары</b></a></li>
-                    <li><a class="menu-item" href="#"><b>О нас</b></a></li>
-                </ul>
-                </div>
-            </div>
-    </header>
-    <main class = 'main'>
-        <section class = 'banner-section'>
-            <div class = 'container'>  
-                <div class = 'banner-text'>
-                    </div>
-                </div>
-            </div>
-        </section>
-                    <div class = 'container'>
-                            <div class = 'cards-text'>
-                                <h1>Brawl stars</h1>
-                                <h2>Хотите купить персонажей?</h2>
-                            <div class = 'cards'>
-                                <div class = 'cards-row'>
-                                    <div class = 'card'>
-                                        <img class = 'card-img' src="img/фрэнк.jpg"/>
-                                        <div class = 'card-body'>
-                                            <h3 class = 'card-title'>Фрэнк</h3>
-                                            <div class = 'card-text'>100$</div>
-                                            <div class = 'card-button'>
-                                                <a class = 'card-link' href = '#'>buy</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class = 'card'>
-                                        <img class = 'card-img' src="img/спайк.jpg"/>
-                                        <div class = 'card-body'>
-                                            <h3 class = 'card-title'>Спайк</h3>
-                                            <div class = 'card-text'>100$</div>
-                                            <div class = 'card-button'>
-                                                <a class = 'card-link' href = '#'>buy</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class = 'card'>
-                                        <img class = 'card-img' src="img/сенди.jpg"/>
-                                        <div class = 'card-body'>
-                                            <h3 class = 'card-title'>Сенди</h3>
-                                            <div class = 'card-text'>100$</div>
-                                            <div class = 'card-button'>
-                                                <a class = 'card-link' href = '#'>buy</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-    </main>
-    <footer class = 'footer'>
-        <div class = 'container'>
-            <div class = 'footer-row'>
-                <div class = 'search'>
-                    <div class = 'copyright'>GITHUB: 1337c063</div>
-                    <div class="footer-search">
-                        <input type="text" class="footer-search-input">
-                        <button class="footer-search-button">Subscribe</button>
-                    </div>
-                </div>
-                <div class = 'social-networks'></div>
-                </div>
-            </div>
+    <div class="contact">
+        Telegram: <a href="https://t.me/temaicha" target="_blank" style="color: #00ffff; text-decoration: none;">@temaicha</a>
+    </div>
+    
+    <div class="portfolio">
+        <!-- Example of how to add images -->
+        <div class="image-container">
+            <img src="f1.jpg" alt="Design 1">
         </div>
-    </footer>
+        <div class="image-container">
+            <img src="f3.jpg" alt="Design 2">
+        </div>
+        <div class="image-container">
+            <img src="f2.jpg" alt="Design 3">
+        </div>
+        <div class="image-container">
+            <img src="f4.jpg" alt="Design 1">
+        </div>
+        <div class="image-container">
+            <img src="f5.jpg" alt="Design 2">
+        </div>
+        <div class="image-container">
+            <img src="f6.jpg" alt="Design 3">
+        </div>
+        <!-- Add more images by duplicating the .image-container block -->
+    </div>
+   
 </body>
 </html>
